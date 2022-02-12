@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PlatinumHealthcare</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header  -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="Images/Icons/HeaderIcon1.png" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a onclick="hideMenu()" class="fa">&#10005</a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <a onclick="showMenu()" class="mn">&#9776</a>
+      </nav>
+
+      <hr>
+        <h1>Contact Us</h1>
+    </section>
+
+      <!-- contact us  -->
+      <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6882.762735020009!2d77.91491027701193!3d30.39691997702146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f2b55e7eb948d%3A0x63119bba1ed5322!2sBhauwala%2C%20Uttarakhand%20248007!5e0!3m2!1sen!2sin!4v1632814931484!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+      </section>
+
+      <section class="contact-us">
+        
+        <div class="row">
+
+          <div class="contact-col">
+
+            <div>
+              <span>
+                <h5>Bhagwanpur, Bahugunamarg, Selaqui Road, Dehradun</h5>
+                <p>Uttarakhand, India</p>
+              </span>
+            </div>
+
+            <div>
+              <span>
+                <h5>+91 9837377537, +91 9557910305 </h5>
+                <p>Monday to Saturday, 10:00AM to 6:00PM</p>
+              </span>
+            </div>
+
+            <div>
+              <span>
+                <h5>platinumhealthcare9@gmail.com, imaginepharma@gmail.com </h5>
+                <p>Email us your query</p>
+              </span>
+            </div>
+            
+          </div>
+
+        </div>
+        
+      </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h3>Contact Info.</h3>
+      <p>
+        Address: Bhagwanpur, Bahugunamarg, Selaqui Road, Dehradun, Uttarakhand, India
+        <br />
+        Email: platinumhealthcare9@gmail.com, imaginepharma@gmail.com
+        <br />
+        Phone: +91 9837377537, +91 9557910305
+      </p>
+      <hr>
+      <p class="copyright">
+        Copyright © 2021, PH Platinum Healthcare. All rights reserved.
+      </p>
+      <a href="html/tnc.html" class="tc">Terms and Conditions,</a>
+      <a href="html/pp.html" class="pp">Privacy Policy,</a>
+      <a href="html/disc.html" class="dis">Disclaimer</a>
+    </section>
+
+    <!-- Javascript for menu toggling -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

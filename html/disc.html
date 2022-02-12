@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PlatinumHealthcare</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header  -->
+    <section class="headerr">
+      <nav>
+        <a href="../index.html">
+          <img src="../Images/Icons/HeaderIcon1.png" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a onclick="hideMenu()" class="fa">&#10005</a>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../products.html">Products</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <a onclick="showMenu()" class="mn">&#9776</a>
+      </nav>
+
+      <hr>
+    </section>
+
+      <!-- Mid text box -->
+    <section>
+
+      <div class="text-boxx">
+        <h1><br>Disclaimer for PH Platinum Healthcare</h1>
+        <p>If you require any more information or have any questions about our site’s disclaimer, please feel free to contact us by email at platinumhealthcare9@gmail.com.</p>
+
+        <h1><br>Disclaimers for Platinumhealthcare.site</h1>
+        <p>All the information on this website – https://platinumhealthcare.site/ – is published in good faith and for general information purpose only. Platinumhealthcare.site does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (Platinumhealthcare.site), is strictly at your own risk. Platinumhealthcare.site will not be liable for any losses and/or damages in connection with the use of our website.
+
+From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone ‘bad’.
+
+Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their “Terms of Service” before engaging in any business or uploading any information.</p>
+
+<h1><br>Consent</h1>
+<p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
+
+<h1><br>Update</h1>
+<p>Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p>
+      </div>
+    </section>
+
+
+    <!-- Javascript for menu toggling -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

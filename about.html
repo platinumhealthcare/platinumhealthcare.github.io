@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PlatinumHealthcare</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header  -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="Images/Icons/HeaderIcon1.png" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a onclick="hideMenu()" class="fa">&#10005</a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <a onclick="showMenu()" class="mn">&#9776</a>
+      </nav>
+
+      <hr>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="menu">
+      <div class="menu-content">
+
+          <ul>
+            <li><a href="#WWA">Who we are?</a></li>
+            <li><a href="#MNV">Mission & Vision</a></li>
+            <li><a href="#Mangment">Management</a></li>
+            <li><a href="#div">Division</a></li>
+          </ul>
+        
+      </div>
+      
+    </section>
+
+    <!-- About us content -->
+    <section class="about-us">
+
+      <div id="WWA">
+        <h1>Who we are?</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      
+      <div id="MNV">
+        <h1>Mission and Vision</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+
+      <div id="Mangment">
+        <h1>Management</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+
+      <div id="div">
+        <h1>Division</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h3>Contact Info.</h3>
+      <p>
+        Address: Bhagwanpur, Bahugunamarg, Selaqui Road, Dehradun, Uttarakhand, India
+        <br />
+        Email: platinumhealthcare9@gmail.com, imaginepharma@gmail.com
+        <br />
+        Phone: +91 9837377537, +91 9557910305
+      </p>
+      <hr>
+      <p class="copyright">
+        Copyright © 2021, PH Platinum Healthcare. All rights reserved.
+      </p>
+      <a href="html/tnc.html" class="tc">Terms and Conditions,</a>
+      <a href="html/pp.html" class="pp">Privacy Policy,</a>
+      <a href="html/disc.html" class="dis">Disclaimer</a>
+    </section>
+
+    <!-- Javascript for menu toggling -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
